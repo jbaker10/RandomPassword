@@ -67,9 +67,6 @@
                                 </items>
                             </menu>
                         </popUpButtonCell>
-                        <connections>
-                            <action selector="getPasswordLengthWithSender:" target="-2" id="4ud-Xd-ZaJ"/>
-                        </connections>
                     </popUpButton>
                 </subviews>
             </view>

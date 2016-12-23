@@ -8,7 +8,7 @@
 
 import Foundation
 
-private let characters = Array(("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ").characters)
+private let characters = Array(("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()").characters)
 
 func generateRandomString(length: Int) -> String {
     //Start with an empty string
