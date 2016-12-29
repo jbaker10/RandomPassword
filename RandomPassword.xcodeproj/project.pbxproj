@@ -13,6 +13,7 @@
 		6C0F86661E0D69140078AE64 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F86641E0D69140078AE64 /* MainWindowController.swift */; };
 		6C0F86671E0D69140078AE64 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0F86651E0D69140078AE64 /* MainWindowController.xib */; };
 		6C0F86691E0D6EEE0078AE64 /* GeneratePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F86681E0D6EEE0078AE64 /* GeneratePassword.swift */; };
+		6CDA43181E155C9700DE56E4 /* LengthError.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CDA43171E155C9700DE56E4 /* LengthError.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6C0F86641E0D69140078AE64 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		6C0F86651E0D69140078AE64 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 		6C0F86681E0D6EEE0078AE64 /* GeneratePassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratePassword.swift; sourceTree = "<group>"; };
+		6CDA43171E155C9700DE56E4 /* LengthError.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LengthError.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6C0F86641E0D69140078AE64 /* MainWindowController.swift */,
 				6C0F86651E0D69140078AE64 /* MainWindowController.xib */,
 				6C0F86681E0D6EEE0078AE64 /* GeneratePassword.swift */,
+				6CDA43171E155C9700DE56E4 /* LengthError.xib */,
 			);
 			path = RandomPassword;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CDA43181E155C9700DE56E4 /* LengthError.xib in Resources */,
 				6C0F86561E0D62B40078AE64 /* Assets.xcassets in Resources */,
 				6C0F86671E0D69140078AE64 /* MainWindowController.xib in Resources */,
 				6C0F86591E0D62B40078AE64 /* MainMenu.xib in Resources */,
@@ -297,6 +301,7 @@
 				6C0F865F1E0D62B40078AE64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
